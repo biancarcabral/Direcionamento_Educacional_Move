@@ -7,6 +7,10 @@
   font-family: 'poppins', sans-serif;
 }
 
+title {
+  size: 100px;
+}
+
 body {
   height: 100vh;
   display: flex;
@@ -14,11 +18,18 @@ body {
   justify-content: center;
   flex-direction: column;
   gap: 5px;
-  background: linear-gradient(90deg, rgba(91,30,159,1) 0%, rgba(77,39,182,1) 100%);
+  background-image: url('fundo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh; /* Garante que o body ocupe toda a altura da tela */
+  margin: 0; /* Remove margens padrão */
 }
 
-body h2 {
-  color: white;
+body h1 {
+  color: #ffffff;
+  font-size: 40px;
 }
 
 main {
@@ -26,7 +37,7 @@ main {
   padding: 10px;
   border-radius: 10px;
   width: 100%;
-  max-width: 500px;
+  max-width: 700px;
   min-height: 200px;
   display: flex;
   align-items: center;
@@ -57,8 +68,12 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #008CCC;
+  background-color: #171a64e3;
   color: white;
+}
+
+button:hover {
+  background-color: #e11b5a;
 }
 
 .finish {
