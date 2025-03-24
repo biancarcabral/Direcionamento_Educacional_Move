@@ -37,7 +37,7 @@ main {
   padding: 10px;
   border-radius: 10px;
   width: 100%;
-  max-width: 700px;
+  max-width: 1000px;
   min-height: 200px;
   display: flex;
   align-items: center;
@@ -74,6 +74,14 @@ button {
 
 button:hover {
   background-color: #e11b5a;
+}
+
+#enviar-respostas {
+  background-color: #e11b5a;
+}
+
+#enviar-respostas:hover {
+  background-color: #171a64e3;
 }
 
 .finish {
