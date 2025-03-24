@@ -133,7 +133,7 @@ function finish() {
       enviarRespostasButton.addEventListener("click", () => {
           const resposta1 = document.getElementById("feedback-question1").value;
           const resposta2 = document.getElementById("feedback-question2").value;
-          alert("Respostas enviadas!"); // Exibe o alerta
+          alert("RESPOSTAS ENVIADAS!"); // Exibe o alerta
           console.log("Respostas enviadas:", resposta1, resposta2);
           // Aqui você pode adicionar a lógica para enviar as respostas para um servidor
         });
