@@ -1,8 +1,9 @@
 export default [
     {
-      question: "Quando você resolve um problema, o que te traz mais satisfação?",
+      id: "pergunta1",
+      question: "Pergunta 1: Quando você resolve um problema, o que te traz mais satisfação?",
       answers: [
-        { option: "1- Encontrar a solução mais eficiente e prática usando lógica e análise", course: "T.I., ADS"},
+        { option: "1- Encontrar a solução mais eficiente e prática usando lógica e análise", course: "T.I., ADS", },
         { option: "2- Ver o impacto visual da solução, algo que as pessoas podem admirar ", course: "Web Design, Designer Gráfico" },
         { option: "3- Organizar a informação de forma clara e objetiva para facilitar a tomada de decisões", course: "Operador de Dados" },
         { option: "4- Ajudar as pessoas a compreenderem algo ou a se sentirem mais conectadas", course: "Soft Skills" },
@@ -14,7 +15,8 @@ export default [
       ],
     },
     {
-      question: "O que te motiva mais no seu trabalho diário?",
+      id: "pergunta2",
+      question: "Pergunta 2: O que te motiva mais no seu trabalho diário?",
       answers: [
         { option: "1- Resolver problemas desafiadores que requerem raciocínio lógico", course: "T.I., ADS" },
         { option: "2- Trabalhar em algo visualmente criativo e inovador ", course: "Web Design, Designer Gráfico"},
@@ -28,7 +30,8 @@ export default [
       ],
     },
     {
-      question: " Qual é a sua relação com os desafios emocionais?",
+      id: "pergunta3",
+      question: "Pergunta 3: Qual é a sua relação com os desafios emocionais?",
       answers: [
         { option: "1- Prefiro lidar com problemas concretos e técnicos, evitando muita carga emocional", course: "T.I., ADS"},
         { option: "2- Uso meus sentimentos como inspiração para criar algo bonito e expressivo", course: "Web Design, Designer Gráfico"},
@@ -42,7 +45,8 @@ export default [
       ],
     },
     {
-      question: "  O que te faz sentir mais realizado no final de um dia de trabalho?",
+      id: "pergunta4",
+      question: "Pergunta 4: O que te faz sentir mais realizado no final de um dia de trabalho?",
       answers: [
         { option: "1- Saber que consegui resolver um problema difícil com minhas habilidades técnicas", course: "T.I., ADS" },
         { option: "2- Ver algo que criei sendo admirado por sua estética e impacto visual", course: "Web Design, Designer Gráfico"},
@@ -56,7 +60,8 @@ export default [
       ],
     },
     {
-        question: " Quando você pensa no sucesso, o que ele significa para você?",
+      id: "pergunta5",
+        question: "Pergunta 5: Quando você pensa no sucesso, o que ele significa para você?",
         answers: [
           { option: "1- Resolver problemas que os outros consideram impossíveis e ser reconhecido por minha habilidade técnica", course: "T.I., ADS" },
           { option: "2- Criar algo que as pessoas vão lembrar, algo que cause uma boa impressão visual", course: "Web Design, Designer Gráfico"},
@@ -70,7 +75,8 @@ export default [
         ],
       },
       {
-        question: "  Como você lida com situações que estão fora do seu controle?",
+        id: "pergunta6",
+        question: "Pergunta 6: Como você lida com situações que estão fora do seu controle?",
         answers: [
           { option: "1- Tento encontrar soluções alternativas que dependam das minhas habilidades técnicas", course: "T.I., ADS"},
           { option: "2- Tento me adaptar e buscar inspiração criativa dentro das limitações", course: "Web Design, Designer Gráfico"},
@@ -84,7 +90,8 @@ export default [
         ],
       },
       {
-        question: "O que é mais importante para você em um ambiente de trabalho?",
+        id: "pergunta7",
+        question: "Pergunta 7: O que é mais importante para você em um ambiente de trabalho?",
         answers: [
           { option: "1- Ter acesso a novas tecnologias e desafios complexos", course: "T.I., ADS"},
           { option: "2- Um ambiente que estimule a criatividade e a expressão visual ", course: "Web Design, Designer Gráfico"},
@@ -98,7 +105,8 @@ export default [
         ],
       },
       {
-        question: "Como você lida com o fracasso?",
+        id: "pergunta8",
+        question: "Pergunta 8: Como você lida com o fracasso?",
         answers: [
           { option: "1- Vejo o fracasso como uma oportunidade de melhorar minhas habilidades técnicas", course: "T.I., ADS"},
           { option: "2- Transformo o fracasso em inspiração para uma nova criação", course: "Web Design, Designer Gráfico"},
@@ -112,7 +120,8 @@ export default [
         ],
       },
       {
-        question: "O que te faz sentir mais conectado com os outros?",
+        id: "pergunta9",
+        question: "Pergunta 9: O que te faz sentir mais conectado com os outros?",
         answers: [
           { option: "1- Colaborar em projetos tecnológicos e resolver problemas em equipe", course: "T.I., ADS"},
           { option: "2- Compartilhar minhas criações visuais e ouvir feedback sobre elas", course: "Web Design, Designer Gráfico"},
@@ -126,7 +135,8 @@ export default [
         ],
       },
       {
-        question: "Ao realizar uma tarefa em grupo, você prefere:",
+        id: "pergunta10",
+        question: "Pergunta 10: Ao realizar uma tarefa em grupo, você prefere:",
         answers: [
           { option: "1- Assumir o comando e tomar decisões rápidas.", profile: "Dominância" },
           { option: "2- Motivar e engajar os outros com ideias e sugestões. ", profile: "Influência" },
@@ -135,7 +145,8 @@ export default [
         ],
       },
       {
-        question: "Quando enfrenta um desafio no trabalho ou nos estudos, você tende a:",
+        id: "pergunta11",
+        question: "Pergunta 11: Quando enfrenta um desafio no trabalho ou nos estudos, você tende a:",
         answers: [
           { option: "1- Resolver o problema rapidamente, focando nos resultados.", profile: "Dominância" },
           { option: "2- Buscar apoio e opiniões de outras pessoas para encontrar a solução. ", profile: "Influência" },
@@ -144,7 +155,8 @@ export default [
         ],
       },
       {
-        question: "Qual dessas atividades mais lhe atrai?",
+        id: "pergunta12",
+        question: "Pergunta 12: Qual dessas atividades mais lhe atrai?",
         answers: [
           { option: "1- Resolver problemas matemáticos ou desafios lógicos.", field: "Exatas Matemática e Lógica" },
           { option: "2- Escrever textos ou analisar questões sociais.", field: "Humanas Letras e Ciências Sociais"},
@@ -153,7 +165,8 @@ export default [
         ],
       },
       {
-        question: "Diante de um novo projeto, o que mais chama sua atenção?",
+        id: "pergunta13",
+        question: "Pergunta 13: Diante de um novo projeto, o que mais chama sua atenção?",
         answers: [
           { option: "1- Como estruturar e medir os resultados.", field: "Exatas Planejamento e Engenharia"},
           { option: "2- Como engajar as pessoas e comunicar ideias.", field: "Humanas Comunicação e Marketing"},
