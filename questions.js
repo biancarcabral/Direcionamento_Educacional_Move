@@ -28,7 +28,7 @@ export default [
         { option: "8- Ter controle sobre o progresso de um projeto e liderar o caminho até o sucesso", course: "Administração" },
         { option: "9- Trabalhar com peças gráficas que ajudam a transmitir uma mensagem de forma eficaz", course: "Gráfico"},
         
-      ],
+      ],      
     },
     {
       id: "pergunta3",
@@ -158,22 +158,42 @@ export default [
       },
       {
         id: "pergunta12",
-        question: "Pergunta 12: Qual dessas atividades mais lhe atrai?",
+        question: "Pergunta 12: Em qual atividade você se sentiria mais realizado(a)?",
         answers: [
-          { option: "1- Escrever textos ou analisar questões sociais.", field: "Humanas Letras e Ciências Sociais"},
-          { option: "2- Trabalhar com experimentos ou descobrir como algo funciona. ", field: "Exatas Ciências e Tecnologia"},
-          { option: "3- Resolver problemas matemáticos ou desafios lógicos.", field: "Exatas Matemática e Lógica" },
-          { option: "4- Entender o comportamento humano e ajudar pessoas.", field: "Humanas Psicologia e Comportamento"},
+          { option: "1- Liderar uma equipe para atingir metas em uma empresa.", field: "Negócios e Gestão (Administração, RH, Marketing)"},
+          { option: "2- Desenvolver um sistema ou aplicativo que resolva um problema real. ", field: "Tecnologia da Informação (Sistemas de Informação, Análise e Desenvolvimento de Sistemas)"},
+          { option: "3- Ensinar crianças, jovens ou adultos e ajudar no seu desenvolvimento.", field: "Educação (Pedagogia)" },
+          { option: "4- Analisar as finanças de uma empresa e garantir que tudo esteja em ordem.", field: "Finanças e Contabilidade (Ciências Contábeis)"},
         ],
       },
       {
         id: "pergunta13",
         question: "Pergunta 13: Diante de um novo projeto, o que mais chama sua atenção?",
         answers: [
-          { option: "1- Como o projeto pode impactar positivamente a vida das pessoas.", field: "Humanas Desenvolvimento Social"},
-          { option: "2- Como estruturar e medir os resultados.", field: "Exatas Planejamento e Engenharia"},
-          { option: "3- Quais tecnologias podem ser usadas para otimizar o processo.", field: "Exatas Tecnologia e Inovação"},
-          { option: "4- Como engajar as pessoas e comunicar ideias.", field: "Humanas Comunicação e Marketing"},
+          { option: "1- Trabalhar com números, relatórios e manter o controle financeiro.", field: "Finanças e Contabilidade (Ciências Contábeis)"},
+          { option: "2- Ter impacto direto na formação e no crescimento pessoal de outras pessoas.", field: "Educação (Pedagogia)"},
+          { option: "3- Ter autonomia para criar soluções tecnológicas e resolver problemas com lógica.", field: "Tecnologia da Informação (Sistemas de Informação, Análise e Desenvolvimento de Sistemas)"},
+          { option: "4- Ter contato com pessoas, trabalhar em equipe e tomar decisões estratégicas.", field: "Negócios e Gestão (Administração, RH, Marketing)"},
         ],
       },
+      {
+      id: "pergunta14",
+      question: "Pergunta 14: Diante de um novo projeto, o que mais chama sua atenção?",
+      answers: [
+        { option: "1- Montar um plano de controle de custos para reduzir despesas em uma empresa.", field: "Finanças e Contabilidade (Ciências Contábeis)"},
+        { option: "2- Planejar atividades educativas que ajudem no aprendizado de uma turma.", field: "Educação (Pedagogia)"},
+        { option: "3- Participar da criação de um software desde o planejamento até a entrega.", field: "Tecnologia da Informação (Sistemas de Informação, Análise e Desenvolvimento de Sistemas)"},
+        { option: "4- Criar uma campanha para divulgar um novo produto no mercado.", field: "Negócios e Gestão (Administração, RH, Marketing)"},
+      ],
+    },
+    {
+    id: "pergunta15",
+    question: "Pergunta 15: Diante de um novo projeto, o que mais chama sua atenção?",
+    answers: [
+      { option: "1- Organizar uma equipe e fazer um plano de ação para alcançar um objetivo.", field: "Negócios e Gestão (Administração, RH, Marketing)"},
+      { option: "2- Escrever códigos, mexer com computadores e buscar soluções práticas. ", field: "Tecnologia da Informação (Sistemas de Informação, Análise e Desenvolvimento de Sistemas)"},
+      { option: "3- Explicar conceitos de forma clara e acompanhar o progresso de alguém.", field: "Educação (Pedagogia)" },
+      { option: "4- Interpretar planilhas, fazer cálculos e cuidar da parte financeira.", field: "Finanças e Contabilidade (Ciências Contábeis)"},
+    ],
+  },
   ];
